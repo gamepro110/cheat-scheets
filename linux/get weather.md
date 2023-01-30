@@ -1,3 +1,5 @@
+#
+
 ```bash
 curl wttr.in/{{location}}
 ```
@@ -5,4 +7,3 @@ curl wttr.in/{{location}}
 | arguments    | description                     |
 | ------------ | ------------------------------- |
 | {{location}} | location to get the weather for |
-

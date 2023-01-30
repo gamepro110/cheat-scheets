@@ -1,4 +1,5 @@
 # graph
+
 displaying a graph
 
 ```bash
@@ -6,6 +7,7 @@ git log --graph --oneline --all
 ```
 
 outputs
+
 ```bash
 * <sha> <branches> <commit message>
 * <sha> <branches> <commit message>
