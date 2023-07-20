@@ -1,8 +1,12 @@
+---
+tags: linux, shell, bash, zsh
+---
+
 # custom shell setup
 
 ## packages
 
-### debian
+### Debian
 
 - zsh
 - zsh-common
@@ -20,7 +24,7 @@
 
 - install packages
   - found above
-- copy .p10k.zsh file from Code_Snippets/linux/.p10k.zsh to target device
+- copy.p10k.zsh file from Code_Snippets/linux/.p10k.zsh to target device
 - change shell
 
   ```bash
@@ -39,4 +43,4 @@
   echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
   ```
 
-- replace .p10k.zsh with the one from Code_Snippets
+- replace.p10k.zsh with the one from Code_Snippets

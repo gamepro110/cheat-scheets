@@ -1,4 +1,8 @@
-#
+---
+tags: linux, shell, weather
+---
+
+# get weather
 
 ```bash
 curl wttr.in/{{location}}

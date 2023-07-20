@@ -1,3 +1,7 @@
+---
+tags: windows
+---
+
 # open a cmd terminal with admin privileges and run the following
 
 ```cmd

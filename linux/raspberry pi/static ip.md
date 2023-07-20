@@ -1,4 +1,8 @@
-#
+---
+tags: RaspberryPi, linux
+---
+
+# Raspberry-pi static ip
 
 in file `/etc/dhcpcd.conf` add the following at the bottom
 

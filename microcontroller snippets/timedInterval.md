@@ -1,12 +1,16 @@
+---
+tags: c++, snippet
+---
+
 # Timed Interval snippet
 
-## header
+## file.h
 
 ```cpp
 void timedInterval(const unsigned long& currentTime, const unsigned long& intervalMS, unsigned long& previousTime, void(*func)());
 ```
 
-## cpp
+## file.cpp
 
 ```cpp
 //cpp

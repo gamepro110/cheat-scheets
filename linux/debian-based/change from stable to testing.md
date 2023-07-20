@@ -1,4 +1,8 @@
-#
+---
+tags: linux, debian, updates
+---
+
+# Debian change from stable to testing
 
 in `/etc/apt/sources.list`
 
@@ -23,5 +27,5 @@ deb http://deb.debian.org/debian testing/updates main contrib non-free
 run
 
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```

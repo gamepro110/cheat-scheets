@@ -1,8 +1,12 @@
-#
+---
+tags: linux, shell
+---
+
+# custom p10k shell theme
 
 ## packages
 
-### debian
+### Debian
 
 - zsh
 - zsh-common

@@ -1,6 +1,6 @@
-#
+# #Debian based tab auto-completion
 
-## instal packages
+## install packages
 
 - bash-completion
 

@@ -4,19 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "b05612d302adbf2b",
+        "id": "60ba75cc2d07e004",
         "type": "tabs",
         "children": [
           {
-            "id": "b05cea1d8ec706b7",
+            "id": "73b7bd60a73a1e81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/debian-based/change from stable to testing.md",
+                "file": "programming_langs/laravel-php/migrations.md",
                 "mode": "source",
-                "source": false
+                "backlinks": true,
+                "source": true
               }
+            }
+          },
+          {
+            "id": "332e1134d7c47aa5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -64,12 +73,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "0f71515e1913b67d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 233.5
   },
   "right": {
     "id": "209ea90531b55b6d",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/debian-based/change from stable to testing.md",
+                "file": "programming_langs/laravel-php/migrations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/debian-based/change from stable to testing.md",
+                "file": "programming_langs/laravel-php/migrations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/debian-based/change from stable to testing.md"
+                "file": "programming_langs/laravel-php/migrations.md"
               }
             }
           },
@@ -136,13 +153,22 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "4ac513b8a339b98b",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,17 +181,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b05cea1d8ec706b7",
+  "active": "73b7bd60a73a1e81",
   "lastOpenFiles": [
-    "linux/debian-based/change from stable to testing.md",
-    "ssh/ssh-copy-id.md",
-    "windows/enable group-policy in windows home.md",
-    "Untitled.md",
+    "programming_langs/laravel-php/migrations.md",
     "linux/raspberry pi/static ip.md",
+    "programming_langs/laravel-php/env file.md",
+    "shell setup.md",
+    "linux/find.md",
+    "programming_langs/laravel-php/models.md",
+    "programming_langs/laravel-php/routes/web.md",
+    "programming_langs/laravel-php/connecting with database.md",
+    "programming_langs/laravel-php/routes",
+    "readme.md",
+    "programming_langs/laravel-php/installing.md",
+    "programming_langs/laravel-php",
+    "linux/debian-based/static ip deb12.md",
+    "windows/enable group-policy in windows home.md",
     "ssh/sshkey from windows to wsl.md",
-    "ansible/ansible.cfg.md",
+    "ssh/ssh-copy-id.md",
+    "rss/youtube.md",
+    "pihole/backup.md",
+    "pihole/web interface change password.md",
+    "microcontroller snippets/timedInterval.md",
+    "git/reset.md",
+    "git/log.md",
+    "bash/bash foreach line in file.md",
     "ansible/inventory file.md",
+    "ansible/ansible.cfg.md",
+    "linux/debian-based/change from stable to testing.md",
     "linux/get weather.md",
-    "shell setup.md"
+    "linux/custom p10k shell theme.md",
+    "rss",
+    "microcontroller snippets",
+    "bash"
   ]
 }

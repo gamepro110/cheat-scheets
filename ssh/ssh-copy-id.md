@@ -1,4 +1,8 @@
-#
+---
+tags: linux, ssh, windows
+---
+
+# ssh-copy-id
 
 ```bash
 ssh-copy-id {{flags}} {{ssh-target}}:

@@ -1,3 +1,7 @@
+---
+tags: version-control, cheat-scheet
+---
+
 # graph
 
 displaying a graph
@@ -15,7 +19,7 @@ outputs
 * <sha> <commit message>
 ```
 
-| param              | description                                                              | values                                                                                            |
+| parameter          | description                                                              | values                                                                                            |
 | ------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
 | --graph            | displays each commit in a graph                                          |                                                                                                   |
 | --pretty=          |                                                                          | email, format, full, fuller, medium, oneline, raw, short                                          |

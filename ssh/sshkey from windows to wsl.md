@@ -1,6 +1,10 @@
-# use sshkeys from windows in wsl
+---
+tags: windows, linux, wsl, ssh
+---
 
->all in wsl terminal
+# use ssh-keys from windows in wsl
+
+> all in wsl terminal
 
 ## copy over
 
