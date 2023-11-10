@@ -1,39 +1,17 @@
 # changing #debian 12 to static ip
 
-## in `/etc/network/interfaces`
+>example
 
-```conf
-# This file describes the network interfaces available on your system
-# and how to activate them. For more information, see interfaces(5).
-
-source /etc/network/interfaces.d/*
-
-# The loopback network interface
-auto lo
-iface lo inet loopback
-
-# The primary network interface
-allow-hotplug ens18
-iface ens18 inet dhcp
+```bash
+sudo nmcli c show
+sudo nmcli c mod 'Wired connection 1' ipv4.addresses 10.10.30.19/24 ipv4.method manual
+sudo nmcli con mod 'Wired connection 1' ipv4.gateway 10.10.30.1
+sudo nmcli con mod 'Wired connection 1' ipv4.dns "10.10.30.1"
+sudo nmcli c down 'Wired connection 1' && sudo nmcli c up 'Wired connection 1'
 ```
 
-change it to
+## reverting
 
-```conf
-# This file describes the network interfaces available on your system
-# and how to activate them. For more information, see interfaces(5).
-
-source /etc/network/interfaces.d/*
-
-# The loopback network interface
-auto lo
-iface lo inet loopback
-
-# The primary network interface
-auto ens18
-iface ens18 inet static
-  address 192.168.30.61 # change to required ip
-  netmask 255.255.255.0 # change to required netmask
-  gateway 192.168.30.254 # change to required gateway
-  dns-nameservers 192.168.30.10 # change to required dns-server
+```bash
+sudo nmcli con modify 'Wired connection 1' ipv4.method auto
 ```
