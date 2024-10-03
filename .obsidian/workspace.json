@@ -13,19 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming_langs/laravel-php/migrations.md",
-                "mode": "source",
+                "file": "ssh/sshkey from windows to wsl.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
-            }
-          },
-          {
-            "id": "332e1134d7c47aa5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -86,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 279.5
   },
   "right": {
     "id": "209ea90531b55b6d",
@@ -102,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming_langs/laravel-php/migrations.md",
+                "file": "ssh/sshkey from windows to wsl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming_langs/laravel-php/migrations.md",
+                "file": "ssh/sshkey from windows to wsl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming_langs/laravel-php/migrations.md"
+                "file": "ssh/sshkey from windows to wsl.md"
               }
             }
           },
@@ -160,6 +152,18 @@
             "state": {
               "type": "todo",
               "state": {}
+            }
+          },
+          {
+            "id": "4e583fe2a2e14b22",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
             }
           }
         ],
@@ -183,17 +187,22 @@
   },
   "active": "73b7bd60a73a1e81",
   "lastOpenFiles": [
+    "linux/find.md",
+    "programming_langs/laravel-php/connecting with database.md",
+    "programming_langs/laravel-php/database/connecting to database.md",
+    "programming_langs/laravel-php/installing.md",
+    "programming_langs/laravel-php/database/connecting to database",
+    "programming_langs/laravel-php/database",
+    "programming_langs/laravel-php/Untitled.md",
+    "programming_langs/laravel-php/routes/web.md",
+    "programming_langs/laravel-php/env file.md",
+    "programming_langs/laravel-php/laravel-controller.md",
     "programming_langs/laravel-php/migrations.md",
     "linux/raspberry pi/static ip.md",
-    "programming_langs/laravel-php/env file.md",
     "shell setup.md",
-    "linux/find.md",
     "programming_langs/laravel-php/models.md",
-    "programming_langs/laravel-php/routes/web.md",
-    "programming_langs/laravel-php/connecting with database.md",
     "programming_langs/laravel-php/routes",
     "readme.md",
-    "programming_langs/laravel-php/installing.md",
     "programming_langs/laravel-php",
     "linux/debian-based/static ip deb12.md",
     "windows/enable group-policy in windows home.md",
@@ -208,9 +217,6 @@
     "bash/bash foreach line in file.md",
     "ansible/inventory file.md",
     "ansible/ansible.cfg.md",
-    "linux/debian-based/change from stable to testing.md",
-    "linux/get weather.md",
-    "linux/custom p10k shell theme.md",
     "rss",
     "microcontroller snippets",
     "bash"

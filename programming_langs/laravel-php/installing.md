@@ -40,6 +40,6 @@ tags: composer, php, php-framework
 
 ## creating new project
 
-`laravel new <name>`
+`composer create-project laravel/laravel <name>`
 
 > \<name> is project(dir) name
